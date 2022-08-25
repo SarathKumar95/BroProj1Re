@@ -12,8 +12,8 @@ navbar{
     display:flex;
     justify-content: space-between;
     margin-top: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #navlist a{
@@ -45,13 +45,108 @@ navbar{
 
 /* navbar end */
 
+
+/*section start*/
 section{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
+    
 }
+
+.slanted-button{
+   background-color:white;
+   color: black;
+   text-align: center;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: bold;
+   padding-top: 15px;
+   transform: skewX(-20deg);
+    width: 135px;
+    height: 50px;
+    position: relative;
+    bottom: 80px;
+    left: 50%;
+    cursor: pointer;
+
+}
+
+.slanted-button:hover{
+    background-color: #e60010;
+    
+}
+
+.slanted-button:hover span{
+    color: white;
+}
+
+#button-ele{
+    margin-left: 15px;
+    color: #e60010 ;
+    font-weight: bolder;
+}
+
+
 
 section img{
     width: 100%;
-    margin-bottom: -5px;
+    margin-top: -4px;
+    
 }
+
+#sec-head-image{
+    width: 15%;
+    
+}
+
+#slant{
+    color: red;
+    font-size: 45px;
+    position: relative;
+    top: -5px;
+}
+
+#sec-text1{
+    position: relative;
+    top:-450px;
+    left: 40%;
+}
+
+/*section end*/
+
+/* footer start */
+
+footer h6{
+
+    font-family: var(--fontf-s);
+    font-style: normal;
+    font-size: var(--fonts-s);
+    
+}
+
+footer p{
+    font-size: 10px;
+    font-style: italic ;
+    font-weight: bold;
+}
+
+footer img{
+    width: 40px;
+}
+
+.f-container2{
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+
+}
+
+.div-links label{
+    position: relative;
+    left: 2px;
+    top: 2px;
+
+}
+
+/* footer end */
