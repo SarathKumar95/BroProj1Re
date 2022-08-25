@@ -113,6 +113,27 @@ section img{
     left: 40%;
 }
 
+#sec-p1{
+    position: relative;
+    left: 38%;
+    bottom: 400px;
+    color: white;
+    line-height: 30px;
+    letter-spacing:2px;
+}
+
+#wrc{
+    position: relative;
+    left: 20%;
+    bottom: 300px;
+}
+
+#wec{
+    position: relative;
+    left: 70%;
+    bottom: 350px;
+}
+
 /*section end*/
 
 /* footer start */
