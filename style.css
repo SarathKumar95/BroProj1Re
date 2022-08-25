@@ -41,3 +41,17 @@ navbar{
     right: 10px;
     top: 2px;
 }
+
+
+/* navbar end */
+
+section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+section img{
+    width: 100%;
+    margin-bottom: -5px;
+}
