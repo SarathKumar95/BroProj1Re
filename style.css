@@ -1,0 +1,43 @@
+@import url(//db.onlinewebfonts.com/c/a57898f1c888d0b61730477a1c77974a?family=Decima+Mono+Pro);
+
+
+*{  
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:"Decima Mono Pro";
+}
+
+navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#navlist a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+
+
+}
+
+#navlist a:hover{
+    color: grey;
+}
+
+#line-1{
+    font-size: 25px;
+    color: grey;
+}
+
+#globe{
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
