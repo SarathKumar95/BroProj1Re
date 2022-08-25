@@ -54,6 +54,16 @@ section{
     
 }
 
+.sec-image{
+    margin-top: -48px;
+}
+
+#lastimg{
+    margin-top: -700px;
+}
+
+
+
 .slanted-button{
    background-color:white;
    color: black;
@@ -62,6 +72,7 @@ section{
    font-style: normal;
    font-weight: bold;
    padding-top: 15px;
+   margin-top: 0px;
    transform: skewX(-20deg);
     width: 135px;
     height: 50px;
@@ -113,13 +124,19 @@ section img{
     left: 40%;
 }
 
+.sec-p{
+    color: white;
+    line-height: 30px;
+    letter-spacing:2px;
+    font-family: var(--fontf-s);
+}
+
 #sec-p1{
     position: relative;
     left: 38%;
     bottom: 400px;
-    color: white;
-    line-height: 30px;
-    letter-spacing:2px;
+
+    
 }
 
 #wrc{
@@ -133,6 +150,47 @@ section img{
     left: 70%;
     bottom: 350px;
 }
+
+#wec-img,#wrc-img{
+    width: 200px;
+    height: 200px;
+}
+
+#wrc-img{
+    position: relative;
+    bottom: 550px;
+    left: 350px;
+
+}
+
+#wec-img{
+    position: relative;
+    bottom: 750px;
+    left: 1300px;
+    
+}
+
+.sec-textbox{
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+}
+
+
+#sec-p2{
+    position: relative;
+    top: 25px;
+    line-height: 30px;
+}
+
+#ostory{
+    width: 180px;
+    position: relative;
+    left: 0px;
+    bottom: -50px;
+
+}
+
 
 /*section end*/
 
