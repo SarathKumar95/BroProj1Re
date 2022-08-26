@@ -4,7 +4,9 @@
 :root{
     --fonts-p:20px;
     --fonts-s:12px;
-    --fontf-s:"Akkurat Mono Light";
+    --fontf-s:"Times New Roman";
     --card-title-font:15px;
+    --card-p-font:13px;
+    --card-hr: rgba(158, 152, 152,0.5);
 
 }

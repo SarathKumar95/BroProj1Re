@@ -202,16 +202,19 @@ section img{
 }
 
 .card{
-    border: 3px soild black;
-    height: 300px;
-    width: 33%;
+    height: 670px;
+    width: 20%;
     padding-top: 20px;
     padding-left: 20px;
+    font-family: var(--fontf-s);
+    text-align: left;
+    box-shadow: 5px 10px;
 }
 
 .card-image{
-    width: 400px;
+    width: 350px;
     height: 250px;
+    margin-left: -5px;
 }
 
 .c-img{
@@ -225,6 +228,36 @@ section img{
     margin-top: 10px;
 }
 
+.card-p{
+    font-size: var(--card-p-font);
+    font-family: var(--fontf-s);
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.card hr{
+    margin-top: 45px;
+    margin-right: 10px;
+    color: var(--card-hr);
+}
+
+.card-last{
+    margin-top: 20px;
+    display:flex;
+    gap: 160px;
+    color: #7f7f7f
+    ;
+
+    
+}
+
+.card-last span{
+    color: #e60010;
+}
+
+#more{
+    color: black;
+}
 
 /* grid end */
 
