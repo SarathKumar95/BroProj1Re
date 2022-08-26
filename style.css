@@ -7,6 +7,7 @@
     padding: 0px;
     font-family:"Decima Mono Pro";
     
+    
 
 }
 
@@ -57,7 +58,7 @@ section{
 }
 
 .sec-image{
-    margin-top: -48px;
+    margin-top: -55px;
 }
 
 
@@ -89,8 +90,13 @@ section{
 
 .slanted-button:hover p{
     color: white;
+    transition: 0.5s;
     
 
+}
+
+#button-text{
+    margin-left: 0px;
 }
 
 
@@ -108,10 +114,18 @@ section{
 }
 
 #button-ele{
-    margin-left: 15px;
     color: #e60010 ;
     font-weight: bolder;
 }
+
+#msports{
+    margin-left: -20px;
+}
+
+#wrc i{
+    margin-left: -20px;
+}
+
 
 
 
@@ -185,7 +199,7 @@ section img{
 
 
 #lastimg{
-    margin-top: -374px;
+    margin-top: -380px;
 }
 
 
