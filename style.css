@@ -199,6 +199,7 @@ section img{
 .grid-container{
     border: 3px solid black ;
     height: 1000px;
+    
 }
 
 .card{
@@ -257,6 +258,19 @@ section img{
 
 #more{
     color: black;
+}
+
+.press-release button{
+    color: white;
+    background-color: #e60010;
+    box-shadow: none;
+    border: none;
+    width: 140px;
+    height: 25px;
+    padding: 2px 2px;
+    transform: skewX(-20deg);
+    font-weight: 700;
+    margin-top: -3px;
 }
 
 /* grid end */
