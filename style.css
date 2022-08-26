@@ -316,6 +316,15 @@ section img{
     
 }
 
+#all-press:hover{
+    background-color: #7f7f7f;
+    color: white;
+}
+
+#all-press:hover .fa-angle-right{
+    color: white;
+}
+
 .fa-angle-right{
     position: relative;
     left: 20px;
