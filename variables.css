@@ -4,6 +4,7 @@
 :root{
     --fonts-p:20px;
     --fonts-s:12px;
-    --fontf-s:"Akkurat+Mono"
+    --fontf-s:"Akkurat Mono Light";
+    --card-title-font:15px;
 
 }
