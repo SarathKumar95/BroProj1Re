@@ -6,10 +6,9 @@
     margin: 0px;
     padding: 0px;
     font-family:"Decima Mono Pro";
-    
-    
-
+    overflow-x: hidden;
 }
+
 
 navbar{
     display:flex;
