@@ -403,6 +403,10 @@ footer img{
     
 }
 
+.div-p div{
+    cursor: pointer;
+}
+
 .div-links label{
     position: relative;
     left: 2px;
@@ -443,6 +447,11 @@ footer img{
     margin-top: 50px;
 }
 
+#hr1,#hr2{
+    width: 60%;
+    margin-left: 400px;
+}
+
 .line{
     font-size: 30px;
 }
@@ -462,5 +471,33 @@ footer img{
 
 #hr2{
     margin-top: 5px;
+}
+
+#copyright{
+    color: #7f7f7f;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 75px;
+
+
+}
+
+#copyright p{
+    font-size: small;
+    font-style: normal;
+    
+}
+
+#rights{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+#rights p{
+    color: #7f7f7f;
+    font-size: x-small;
+    
 }
 /* footer end */
