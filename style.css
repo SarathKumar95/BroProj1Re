@@ -73,7 +73,7 @@ section{
    font-weight: bold;
    padding-top: 15px;
    margin-top: 0px;
-   transform: skewX(-20deg);
+   transform: skewX(-15deg);
     width: 135px;
     height: 50px;
     position: relative;
@@ -85,10 +85,25 @@ section{
 
 .slanted-button:hover{
     background-color: #e60010;
+}
+
+.slanted-button:hover p{
+    color: white;
+    
+
+}
+
+
+
+
+#button-in-img{
+    position: relative;
+    left: 2px;
+    color: #e60010;
     
 }
 
-.slanted-button:hover span{
+.slanted-button:hover #button-in-img{
     color: white;
 }
 
