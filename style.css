@@ -286,6 +286,7 @@ section img{
 
 .container{
     margin-top: -100px;
+    
 }
 
 .news{
@@ -296,6 +297,32 @@ section img{
 #news-img{
     height: 30px;
 }
+
+#press-button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#all-press{
+    width: 200px;
+    height: 40px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: var(--fonts-p);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.fa-angle-right{
+    position: relative;
+    left: 20px;
+    color: #e60010;
+}
+
+
 
 /* grid end */
 
