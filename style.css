@@ -126,6 +126,15 @@ section{
     margin-left: -20px;
 }
 
+#wec:hover i{
+    color: white;
+}
+
+#wrc:hover i{
+    color: white;
+}
+
+
 
 
 
