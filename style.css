@@ -58,9 +58,7 @@ section{
     margin-top: -48px;
 }
 
-#lastimg{
-    margin-top: -700px;
-}
+
 
 
 
@@ -78,7 +76,7 @@ section{
     height: 50px;
     position: relative;
     bottom: 80px;
-    left: 50%;
+    left: 43%;
     cursor: pointer;
 
 }
@@ -135,39 +133,42 @@ section img{
     position: relative;
     left: 38%;
     bottom: 400px;
+}
+    
 
+#wimg1{
+    width: 150px;
+    height: 120px;
     
 }
 
-#wrc{
+#wrc,#wec{
     position: relative;
-    left: 20%;
-    bottom: 300px;
-}
-
-#wec{
-    position: relative;
-    left: 70%;
-    bottom: 350px;
-}
-
-#wec-img,#wrc-img{
-    width: 200px;
-    height: 200px;
-}
-
-#wrc-img{
-    position: relative;
-    bottom: 550px;
-    left: 350px;
+    left: 2px;
+    bottom: -10px;
 
 }
 
-#wec-img{
+
+
+#wimg2{
+    width: 150px;
+    height: 130px;
+}
+
+.car-img{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
     position: relative;
-    bottom: 750px;
-    left: 1300px;
-    
+    bottom: 500px;
+    left: 40px;
+
+}
+
+#lastimg{
+    position: absolute;
+
 }
 
 .sec-textbox{
