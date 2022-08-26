@@ -137,8 +137,8 @@ section img{
     
 
 #wimg1{
-    width: 150px;
-    height: 120px;
+    width: 185px;
+    height: 125px;
     
 }
 
@@ -152,7 +152,7 @@ section img{
 
 
 #wimg2{
-    width: 150px;
+    width: 185px;
     height: 130px;
 }
 
@@ -166,10 +166,11 @@ section img{
 
 }
 
-#lastimg{
-    position: absolute;
 
+#lastimg{
+    margin-top: -378px;
 }
+
 
 .sec-textbox{
     position: relative;
