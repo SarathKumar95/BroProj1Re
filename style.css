@@ -201,7 +201,7 @@ section img{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 375px 375px 375px;
+    grid-template-columns: 400px 400px 400px;
     row-gap: 25px;
     justify-content: center;
     
@@ -290,7 +290,7 @@ section img{
 }
 
 .news{
-    margin-left: 385px;
+    margin-left: 350px;
     margin-bottom: 20px;
 }
 
@@ -305,7 +305,7 @@ section img{
 }
 
 #all-press{
-    width: 200px;
+    width: 250px;
     height: 40px;
     margin-top: -50px;
     font-weight: bold;
@@ -327,8 +327,15 @@ section img{
 
 .fa-angle-right{
     position: relative;
-    left: 20px;
+    left: 40px;
     color: #e60010;
+}
+
+#main-last-hr{
+    width: 100%;
+    height: 5px;
+    margin-top: 30px;
+    fill: #7f7f7f;
 }
 
 
@@ -340,9 +347,18 @@ section img{
 
 /* footer start */
 
+#snsimg{
+    width: 200px;
+}
+
+#sns{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
 footer h6{
 
-    font-family: var(--fontf-s);
+
     font-style: normal;
     font-size: var(--fonts-s);
     
@@ -358,11 +374,33 @@ footer img{
     width: 40px;
 }
 
-.f-container2{
-    display: flex;
-    justify-content: left;
-    gap: 100px;
 
+.f-container1,.f-container2{
+    display: flex;
+    gap: 90px;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+
+.f-container2{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.div-p{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    font-size: var(--fonts-s);
+
+    
+}
+
+.div-p img{
+    width: 55px;
+    
 }
 
 .div-links label{
