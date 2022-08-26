@@ -199,6 +199,10 @@ section img{
 .grid-container{
     border: 3px solid black ;
     height: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    
     
 }
 
@@ -240,14 +244,15 @@ section img{
     margin-top: 45px;
     margin-right: 10px;
     color: var(--card-hr);
+
 }
 
 .card-last{
     margin-top: 20px;
     display:flex;
     gap: 160px;
-    color: #7f7f7f
-    ;
+    color: #7f7f7f;
+    cursor: pointer;
 
     
 }
@@ -258,6 +263,7 @@ section img{
 
 #more{
     color: black;
+    
 }
 
 .press-release button{
@@ -271,6 +277,7 @@ section img{
     transform: skewX(-20deg);
     font-weight: 700;
     margin-top: -3px;
+
 }
 
 /* grid end */
