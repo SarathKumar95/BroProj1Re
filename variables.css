@@ -1,10 +1,12 @@
-@import url(//db.onlinewebfonts.com/c/2ae387e9fd826eca2b02f780e91333c7?family=Akkurat+Mono);
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
 
 
 :root{
     --fonts-p:20px;
     --fonts-s:12px;
-    --fontf-s:"Times New Roman";
+    --fontf-s: 'Inconsolata', monospace;
     --card-title-font:13px;
     --card-p-font:12px;
     --card-hr: rgba(158, 152, 152,0.5);
