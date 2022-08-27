@@ -1,11 +1,17 @@
-@import url(//db.onlinewebfonts.com/c/a57898f1c888d0b61730477a1c77974a?family=Decima+Mono+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 
 *{  
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family:"Decima Mono Pro";
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
